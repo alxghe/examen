@@ -1,0 +1,28 @@
+#textComment{
+    resize: none;
+}
+.card:hover{
+    opacity: 0.6;
+    
+}
+.card-text{
+    text-align: justify;
+}
+
+@media (max-width:576px) {
+    .card-text{
+        font-size: 0.8rem;
+    }
+    
+}
+body{
+    background: #ECE9E6; 
+    background: -webkit-linear-gradient(to right, #ECE8E1, #ECE9E6);  
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); 
+}
+.nav-link{
+    font-weight: 700;
+}
+.navbar-brand{
+    font-weight: 500;
+}
